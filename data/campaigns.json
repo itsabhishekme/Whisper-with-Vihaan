@@ -1,0 +1,168 @@
+[
+  {
+    "id": 1,
+    "slug": "one-meal-one-hope",
+    "title": "One Meal One Hope",
+    "category": "Flagship Campaign",
+    "status": "Active",
+    "featured": true,
+    "heroImage": "/images/campaigns/one-meal-one-hope.jpg",
+    "summary": "Ensuring every individual has access to at least one nutritious meal each day through compassion, community action, and sustainable support.",
+    "description": "One Meal One Hope is our flagship initiative focused on fighting hunger by providing nutritious meals to children, families, elderly individuals, and vulnerable communities. Every contribution helps restore dignity, hope, and a healthier future.",
+    "goal": 100000,
+    "raised": 42500,
+    "mealsProvided": 18750,
+    "beneficiaries": 8200,
+    "volunteers": 240,
+    "location": "India",
+    "startDate": "2026-01-01",
+    "endDate": null,
+    "donationOptions": [
+      {
+        "amount": 100,
+        "label": "Feed 1 Person"
+      },
+      {
+        "amount": 500,
+        "label": "Feed 5 People"
+      },
+      {
+        "amount": 1000,
+        "label": "Support a Family"
+      },
+      {
+        "amount": 5000,
+        "label": "Sponsor a Community Meal"
+      }
+    ],
+    "objectives": [
+      "Provide daily nutritious meals.",
+      "Reduce food insecurity.",
+      "Support vulnerable communities.",
+      "Promote volunteer engagement.",
+      "Encourage sustainable food distribution."
+    ],
+    "gallery": [
+      "/images/campaigns/meal-01.jpg",
+      "/images/campaigns/meal-02.jpg",
+      "/images/campaigns/meal-03.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "community-kitchen",
+    "title": "Community Kitchen",
+    "category": "Food Distribution",
+    "status": "Active",
+    "featured": false,
+    "heroImage": "/images/campaigns/community-kitchen.jpg",
+    "summary": "Building local kitchens that prepare fresh, healthy meals for families in need.",
+    "description": "Community Kitchens operate with volunteers and local partners to prepare and distribute nutritious meals every day in underserved neighborhoods.",
+    "goal": 50000,
+    "raised": 18200,
+    "mealsProvided": 9100,
+    "beneficiaries": 3200,
+    "volunteers": 95,
+    "location": "Multiple Cities",
+    "startDate": "2026-02-15",
+    "endDate": null,
+    "objectives": [
+      "Cook fresh meals daily.",
+      "Support local communities.",
+      "Reduce food waste.",
+      "Create volunteer opportunities."
+    ],
+    "gallery": [
+      "/images/campaigns/kitchen-01.jpg",
+      "/images/campaigns/kitchen-02.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "school-feeding-program",
+    "title": "School Feeding Program",
+    "category": "Children",
+    "status": "Active",
+    "featured": true,
+    "heroImage": "/images/campaigns/school-feeding.jpg",
+    "summary": "Nutritious school meals helping children stay healthy, focused, and ready to learn.",
+    "description": "The School Feeding Program provides balanced meals to children, improving attendance, concentration, and long-term educational outcomes.",
+    "goal": 75000,
+    "raised": 33800,
+    "mealsProvided": 22450,
+    "beneficiaries": 5400,
+    "volunteers": 110,
+    "location": "Rural & Urban Schools",
+    "startDate": "2026-03-01",
+    "endDate": null,
+    "objectives": [
+      "Improve child nutrition.",
+      "Increase school attendance.",
+      "Support healthy development.",
+      "Reduce classroom hunger."
+    ],
+    "gallery": [
+      "/images/campaigns/school-01.jpg",
+      "/images/campaigns/school-02.jpg",
+      "/images/campaigns/school-03.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "festival-food-drive",
+    "title": "Festival Food Drive",
+    "category": "Seasonal Campaign",
+    "status": "Upcoming",
+    "featured": false,
+    "heroImage": "/images/campaigns/festival-drive.jpg",
+    "summary": "Sharing meals and joy with families during major festivals and holidays.",
+    "description": "No family should experience hunger during times of celebration. This campaign distributes festive meal kits and essential groceries across communities.",
+    "goal": 30000,
+    "raised": 5200,
+    "mealsProvided": 1400,
+    "beneficiaries": 750,
+    "volunteers": 42,
+    "location": "Across India",
+    "startDate": "2026-10-01",
+    "endDate": "2026-11-30",
+    "objectives": [
+      "Distribute festive meals.",
+      "Support vulnerable families.",
+      "Promote community participation."
+    ],
+    "gallery": [
+      "/images/campaigns/festival-01.jpg",
+      "/images/campaigns/festival-02.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "emergency-relief-meals",
+    "title": "Emergency Relief Meals",
+    "category": "Disaster Response",
+    "status": "Active",
+    "featured": true,
+    "heroImage": "/images/campaigns/emergency-relief.jpg",
+    "summary": "Rapid food assistance during natural disasters, emergencies, and humanitarian crises.",
+    "description": "Emergency Relief Meals provide immediate food support to families affected by floods, earthquakes, cyclones, fires, and other emergencies.",
+    "goal": 120000,
+    "raised": 64500,
+    "mealsProvided": 35200,
+    "beneficiaries": 14800,
+    "volunteers": 380,
+    "location": "Emergency Response Areas",
+    "startDate": "2026-01-10",
+    "endDate": null,
+    "objectives": [
+      "Deliver emergency meals quickly.",
+      "Support disaster recovery.",
+      "Coordinate volunteers efficiently.",
+      "Partner with local organizations."
+    ],
+    "gallery": [
+      "/images/campaigns/emergency-01.jpg",
+      "/images/campaigns/emergency-02.jpg",
+      "/images/campaigns/emergency-03.jpg"
+    ]
+  }
+]

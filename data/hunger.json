@@ -1,0 +1,142 @@
+{
+  "campaign": {
+    "name": "One Meal One Hope",
+    "tagline": "Every Meal Shared Creates Hope.",
+    "mission": "To end hunger by ensuring that every individual has access to at least one nutritious meal every day while promoting dignity, compassion, and sustainable community development.",
+    "vision": "A world where no one sleeps hungry and every community has equal access to safe, nutritious food."
+  },
+  "globalStatistics": {
+    "peopleFacingHunger": "735 Million+",
+    "childrenAffected": "148 Million+",
+    "peopleInFoodInsecurity": "2.4 Billion+",
+    "foodWastePerYear": "1.3 Billion Tons",
+    "countriesAffected": 150,
+    "dailyMealsNeeded": "Millions"
+  },
+  "causes": [
+    {
+      "id": 1,
+      "title": "Poverty",
+      "description": "Limited income prevents families from accessing sufficient and nutritious food."
+    },
+    {
+      "id": 2,
+      "title": "Food Waste",
+      "description": "Large quantities of edible food are discarded while millions remain hungry."
+    },
+    {
+      "id": 3,
+      "title": "Climate Change",
+      "description": "Extreme weather, droughts, and floods reduce agricultural productivity and food availability."
+    },
+    {
+      "id": 4,
+      "title": "Conflict",
+      "description": "Wars and displacement interrupt food production and humanitarian supply chains."
+    },
+    {
+      "id": 5,
+      "title": "Unemployment",
+      "description": "Job insecurity limits the ability of families to consistently afford healthy meals."
+    },
+    {
+      "id": 6,
+      "title": "Inflation",
+      "description": "Rising food prices make nutritious meals inaccessible for vulnerable households."
+    }
+  ],
+  "impactAreas": [
+    {
+      "title": "Meal Distribution",
+      "description": "Providing nutritious meals to individuals and families facing food insecurity."
+    },
+    {
+      "title": "Community Kitchens",
+      "description": "Supporting local kitchens that prepare and distribute fresh meals every day."
+    },
+    {
+      "title": "School Nutrition",
+      "description": "Helping children receive healthy meals so they can learn and thrive."
+    },
+    {
+      "title": "Emergency Relief",
+      "description": "Delivering food during natural disasters, crises, and humanitarian emergencies."
+    },
+    {
+      "title": "Volunteer Network",
+      "description": "Building a community of volunteers dedicated to serving meals and spreading awareness."
+    },
+    {
+      "title": "Awareness Campaigns",
+      "description": "Educating communities about hunger, nutrition, and sustainable food practices."
+    }
+  ],
+  "goals": [
+    "Ensure every individual has access to at least one nutritious meal each day.",
+    "Reduce food waste through responsible redistribution.",
+    "Strengthen community-based food support systems.",
+    "Promote sustainable agriculture and nutrition awareness.",
+    "Encourage volunteering and social responsibility.",
+    "Collaborate with NGOs, schools, businesses, and local communities."
+  ],
+  "coreValues": [
+    "Compassion",
+    "Dignity",
+    "Transparency",
+    "Hope",
+    "Community",
+    "Sustainability",
+    "Humanity",
+    "Equality"
+  ],
+  "howYouCanHelp": [
+    {
+      "title": "Donate",
+      "description": "Every contribution helps provide meals for individuals and families in need."
+    },
+    {
+      "title": "Volunteer",
+      "description": "Join meal preparation, food distribution, awareness campaigns, or fundraising events."
+    },
+    {
+      "title": "Partner",
+      "description": "Businesses and organizations can support through CSR initiatives and sponsorships."
+    },
+    {
+      "title": "Spread Awareness",
+      "description": "Share stories, educate your community, and inspire others to take action against hunger."
+    }
+  ],
+  "quotes": [
+    {
+      "author": "Whisper with Vihaan",
+      "text": "One meal may satisfy hunger for a day, but kindness can nourish hope for a lifetime."
+    },
+    {
+      "author": "One Meal One Hope",
+      "text": "No act of generosity is ever too small when it feeds a hungry heart."
+    },
+    {
+      "author": "Campaign",
+      "text": "Together, we can transform compassion into action and hope into lasting change."
+    }
+  ],
+  "faq": [
+    {
+      "question": "How does my donation help?",
+      "answer": "Donations support meal preparation, food distribution, community kitchens, and emergency hunger relief initiatives."
+    },
+    {
+      "question": "Can I volunteer?",
+      "answer": "Yes. Volunteers can participate in food drives, meal distribution, community outreach, fundraising, photography, and storytelling."
+    },
+    {
+      "question": "Do you work with corporate partners?",
+      "answer": "Yes. We welcome CSR partnerships, sponsorships, and collaborations with organizations that share our mission."
+    },
+    {
+      "question": "Can I organize a local food drive?",
+      "answer": "Absolutely. We encourage schools, communities, and businesses to organize food donation and awareness events."
+    }
+  ]
+}

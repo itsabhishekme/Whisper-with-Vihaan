@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "slug": "a-meal-that-restored-hope",
+    "title": "A Meal That Restored Hope",
+    "category": "Community Support",
+    "location": "Bengaluru, Karnataka",
+    "author": "Whisper with Vihaan",
+    "date": "2026-01-15",
+    "featured": true,
+    "image": "/images/stories/story-1.jpg",
+    "thumbnail": "/images/stories/story-1-thumb.jpg",
+    "excerpt": "A warm meal became the first step toward rebuilding confidence and restoring hope for an elderly man living alone.",
+    "content": "What began as a simple food distribution drive became a reminder that compassion can transform lives. Volunteers met an elderly man who had gone without a proper meal for days. Beyond providing food, they spent time listening to his story and connecting him with local support services. One meal became the beginning of a renewed sense of dignity and belonging.",
+    "tags": [
+      "Hope",
+      "Community",
+      "Food Distribution",
+      "Compassion"
+    ],
+    "statistics": {
+      "mealsServed": 1,
+      "volunteers": 5,
+      "familiesSupported": 0
+    }
+  },
+  {
+    "id": 2,
+    "slug": "children-learning-with-full-stomachs",
+    "title": "Children Learning with Full Stomachs",
+    "category": "Education",
+    "location": "Mysuru, Karnataka",
+    "author": "Whisper with Vihaan",
+    "date": "2026-02-08",
+    "featured": true,
+    "image": "/images/stories/story-2.jpg",
+    "thumbnail": "/images/stories/story-2-thumb.jpg",
+    "excerpt": "Nutritious meals helped students stay focused in school and participate more actively in class.",
+    "content": "Regular meal support improved school attendance and classroom participation. Teachers observed greater concentration, increased energy, and stronger engagement among students. The initiative demonstrated how access to nutritious food supports education and long-term opportunity.",
+    "tags": [
+      "Education",
+      "Children",
+      "Nutrition",
+      "School Meals"
+    ],
+    "statistics": {
+      "mealsServed": 250,
+      "volunteers": 18,
+      "familiesSupported": 65
+    }
+  },
+  {
+    "id": 3,
+    "slug": "community-kitchen-serving-everyday",
+    "title": "Community Kitchen Serving Every Day",
+    "category": "Community Kitchen",
+    "location": "Hubballi, Karnataka",
+    "author": "Whisper with Vihaan",
+    "date": "2026-03-12",
+    "featured": false,
+    "image": "/images/stories/story-3.jpg",
+    "thumbnail": "/images/stories/story-3-thumb.jpg",
+    "excerpt": "A local community kitchen became a dependable source of nutritious meals for families in need.",
+    "content": "Supported by volunteers and generous donors, the community kitchen prepares and distributes fresh meals every day. Families, senior citizens, and daily wage workers can access nutritious food in a welcoming environment that promotes dignity and inclusion.",
+    "tags": [
+      "Community Kitchen",
+      "Volunteers",
+      "Families"
+    ],
+    "statistics": {
+      "mealsServed": 4200,
+      "volunteers": 42,
+      "familiesSupported": 310
+    }
+  },
+  {
+    "id": 4,
+    "slug": "festival-of-sharing",
+    "title": "Festival of Sharing",
+    "category": "Campaign",
+    "location": "Bengaluru, Karnataka",
+    "author": "Whisper with Vihaan",
+    "date": "2026-04-10",
+    "featured": false,
+    "image": "/images/stories/story-4.jpg",
+    "thumbnail": "/images/stories/story-4-thumb.jpg",
+    "excerpt": "Volunteers celebrated the spirit of giving by sharing meals with underserved communities during a festival.",
+    "content": "Festivals are moments of togetherness. Through the Festival of Sharing campaign, volunteers prepared and distributed nutritious meals to individuals and families, ensuring that celebrations reached those who needed support the most.",
+    "tags": [
+      "Festival",
+      "Giving",
+      "Hope",
+      "Community"
+    ],
+    "statistics": {
+      "mealsServed": 1800,
+      "volunteers": 75,
+      "familiesSupported": 450
+    }
+  },
+  {
+    "id": 5,
+    "slug": "young-volunteers-leading-change",
+    "title": "Young Volunteers Leading Change",
+    "category": "Volunteer",
+    "location": "Tumakuru, Karnataka",
+    "author": "Whisper with Vihaan",
+    "date": "2026-05-18",
+    "featured": true,
+    "image": "/images/stories/story-5.jpg",
+    "thumbnail": "/images/stories/story-5-thumb.jpg",
+    "excerpt": "Students and young professionals united to organize food drives and inspire community action.",
+    "content": "Young volunteers demonstrated that meaningful change begins with small acts of service. By organizing donation drives, packing meals, and participating in distribution events, they inspired others to contribute to the mission of ending hunger.",
+    "tags": [
+      "Youth",
+      "Volunteer",
+      "Leadership",
+      "Social Impact"
+    ],
+    "statistics": {
+      "mealsServed": 950,
+      "volunteers": 60,
+      "familiesSupported": 210
+    }
+  },
+  {
+    "id": 6,
+    "slug": "one-meal-one-hope",
+    "title": "One Meal One Hope",
+    "category": "Mission",
+    "location": "Across India",
+    "author": "Whisper with Vihaan",
+    "date": "2026-06-01",
+    "featured": true,
+    "image": "/images/stories/story-6.jpg",
+    "thumbnail": "/images/stories/story-6-thumb.jpg",
+    "excerpt": "Every meal shared represents hope, dignity, and a commitment to building a hunger-free future.",
+    "content": "The One Meal One Hope campaign believes that no individual should go to bed hungry. Through partnerships, volunteers, donors, and local communities, the initiative continues to provide nutritious meals while encouraging sustainable solutions to food insecurity. Every contribution, no matter its size, helps strengthen communities and create lasting impact.",
+    "tags": [
+      "One Meal One Hope",
+      "Mission",
+      "Food Security",
+      "Humanity",
+      "Zero Hunger"
+    ],
+    "statistics": {
+      "mealsServed": 10000,
+      "volunteers": 250,
+      "familiesSupported": 1800
+    }
+  }
+]

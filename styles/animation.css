@@ -1,0 +1,489 @@
+/* =========================================================
+   Whisper with Vihaan
+   One Meal One Hope
+   Animation Library
+========================================================= */
+
+/* ------------------------------
+   Fade Animations
+------------------------------ */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 0.8s ease forwards;
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-down {
+  animation: fadeDown 0.8s ease forwards;
+}
+
+@keyframes fadeLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-left {
+  animation: fadeLeft 0.8s ease forwards;
+}
+
+@keyframes fadeRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-right {
+  animation: fadeRight 0.8s ease forwards;
+}
+
+/* ------------------------------
+   Zoom
+------------------------------ */
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.zoom-in {
+  animation: zoomIn 0.8s ease forwards;
+}
+
+@keyframes zoomOut {
+  from {
+    transform: scale(1.1);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.zoom-out {
+  animation: zoomOut 1s ease forwards;
+}
+
+/* ------------------------------
+   Float
+------------------------------ */
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.float {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* ------------------------------
+   Pulse
+------------------------------ */
+
+@keyframes pulseSoft {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.04);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse-soft {
+  animation: pulseSoft 2s infinite;
+}
+
+/* ------------------------------
+   Heartbeat
+------------------------------ */
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+
+  15% {
+    transform: scale(1.15);
+  }
+
+  30% {
+    transform: scale(1);
+  }
+
+  45% {
+    transform: scale(1.12);
+  }
+
+  60% {
+    transform: scale(1);
+  }
+}
+
+.heartbeat {
+  animation: heartbeat 2s infinite;
+}
+
+/* ------------------------------
+   Rotate
+------------------------------ */
+
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  animation: rotate360 10s linear infinite;
+}
+
+/* ------------------------------
+   Shine Effect
+------------------------------ */
+
+@keyframes shine {
+  from {
+    left: -100%;
+  }
+
+  to {
+    left: 120%;
+  }
+}
+
+.shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.shine::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 60%;
+  height: 100%;
+  transform: skewX(-25deg);
+  background: rgba(255, 255, 255, 0.3);
+  animation: shine 2.5s infinite;
+}
+
+/* ------------------------------
+   Gradient Animation
+------------------------------ */
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-animation {
+  background-size: 300% 300%;
+  animation: gradientMove 8s ease infinite;
+}
+
+/* ------------------------------
+   Marquee
+------------------------------ */
+
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee {
+  white-space: nowrap;
+  animation: marquee 25s linear infinite;
+}
+
+/* ------------------------------
+   Ripple
+------------------------------ */
+
+@keyframes ripple {
+  0% {
+    transform: scale(0.7);
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.ripple {
+  position: relative;
+}
+
+.ripple::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border: 2px solid currentColor;
+  animation: ripple 2s infinite;
+}
+
+/* ------------------------------
+   Blur Reveal
+------------------------------ */
+
+@keyframes blurReveal {
+  from {
+    opacity: 0;
+    filter: blur(10px);
+  }
+
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.blur-reveal {
+  animation: blurReveal 1s ease forwards;
+}
+
+/* ------------------------------
+   Scale Reveal
+------------------------------ */
+
+@keyframes scaleReveal {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.scale-reveal {
+  animation: scaleReveal 0.7s ease;
+}
+
+/* ------------------------------
+   Slide Reveal
+------------------------------ */
+
+@keyframes slideReveal {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.slide-reveal {
+  animation: slideReveal 1s ease forwards;
+}
+
+/* ------------------------------
+   Text Gradient
+------------------------------ */
+
+.text-gradient {
+  background: linear-gradient(
+    90deg,
+    #f59e0b,
+    #f97316,
+    #ef4444,
+    #f59e0b
+  );
+
+  background-size: 300%;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: gradientMove 6s linear infinite;
+}
+
+/* ------------------------------
+   Glass Effect
+------------------------------ */
+
+.glass {
+  background: rgba(255, 255, 255, 0.08);
+
+  backdrop-filter: blur(18px);
+
+  -webkit-backdrop-filter: blur(18px);
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* ------------------------------
+   Hover Lift
+------------------------------ */
+
+.hover-lift {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-8px);
+
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.18);
+}
+
+/* ------------------------------
+   Hover Scale
+------------------------------ */
+
+.hover-scale {
+  transition: transform 0.35s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+/* ------------------------------
+   Image Zoom
+------------------------------ */
+
+.image-zoom {
+  overflow: hidden;
+}
+
+.image-zoom img {
+  transition: transform 0.7s ease;
+}
+
+.image-zoom:hover img {
+  transform: scale(1.1);
+}
+
+/* ------------------------------
+   Scrollbar
+------------------------------ */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3f4f6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#f59e0b, #ea580c);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ea580c;
+}
+
+/* ------------------------------
+   Selection
+------------------------------ */
+
+::selection {
+  background: #f59e0b;
+  color: #ffffff;
+}
+
+/* ------------------------------
+   Smooth Scroll
+------------------------------ */
+
+html {
+  scroll-behavior: smooth;
+}
