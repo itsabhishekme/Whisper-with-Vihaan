@@ -6,13 +6,35 @@ import { Menu, X } from "lucide-react";
 import Image from "next/image";
 
 const navLinks = [
-  { title: "Home", href: "#hero" },
-  { title: "Hunger", href: "#hunger" },
-  { title: "Mission", href: "#mission" },
-  { title: "Impact", href: "#impact" },
-  { title: "Journey", href: "#documentary" },
-  { title: "Stories", href: "#stories" },
-  { title: "Volunteer", href: "#volunteer" },
+  {
+    title: "Home",
+    href: "/",
+  },
+  {
+    title: "About",
+    href: "/about",
+  },
+  {
+    title: "Campaign",
+    href: "/campaign",
+  },
+  {
+    title: "Hunger",
+    href: "/hunger",
+  },
+  {
+    title: "Stories",
+    href: "/stories",
+  },
+  {
+    title: "Documentary",
+    href: "/documentary",
+  },
+  {
+    title: "Events",
+    href: "/events",
+  },
+ 
 ];
 
 export default function Navbar() {
