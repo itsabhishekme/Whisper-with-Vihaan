@@ -7,7 +7,6 @@ import DocumentaryJourney from "@/components/documentary/DocumentaryJourney";
 import FeaturedStory from "@/components/stories/FeaturedStory";
 import DonateCard from "@/components/donate/DonateCard";
 import VolunteerForm from "@/components/volunteers/VolunteerForm";
-import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
@@ -193,9 +192,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <Footer />
     </main>
   );
 }
