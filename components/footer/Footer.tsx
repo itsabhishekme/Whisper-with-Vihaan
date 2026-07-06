@@ -43,8 +43,8 @@ const campaignLinks = [
 
 const legalLinks = [
   { name: "Privacy Policy", href: "/privacy" },
-  { name: "Terms & Conditions", href: "#" },
-  { name: "Cookie Policy", href: "#" },
+  { name: "Terms & Conditions", href: "/terms" },
+  { name: "Cookie Policy", href: "/cookies" },
 ];
 
 const socialLinks = [
