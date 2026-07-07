@@ -21,13 +21,8 @@ const quickLinks = [
   { name: "About", href: "/about" },
   { name: "Magazine", href: "/magazine" },
   { name: "The Hunger Crisis", href: "/hunger" },
-  { name: "Campaign", href: "/campaign" },
   { name: "Impact", href: "/impact" },
-  { name: "Stories", href: "/stories" },
-  { name: "Documentary", href: "/documentary" },
-  { name: "Events", href: "/events" },
   { name: "Volunteer", href: "/volunteers" },
-  { name: "Donate", href: "/donate" },
   { name: "Blog", href: "/blog" },
   { name: "Contact", href: "/contact" },
 ];
