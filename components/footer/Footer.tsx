@@ -16,7 +16,7 @@ import {
   FaYoutube,
 } from "react-icons/fa6";
 
-const quickLinks = [,
+const quickLinks = [
   { name: "Magazine", href: "/magazine" },
   { name: "The Hunger Crisis", href: "/hunger" },
   { name: "Impact", href: "/impact" },
